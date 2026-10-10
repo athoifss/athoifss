@@ -1,22 +1,27 @@
-I build the backend pieces that are hard to get right.
+I build software products end to end: the data model, the backend, the UI, and the team
+and process that keep it shipping.
 
-**What I work on**
+**Things I've built**
 
-- **Access control.** Relationship-based (Zanzibar-style) permission systems, AWS-IAM-style
-  policy languages, and the engines that evaluate them. Policies compiled into relation
-  tuples, permission checks that stay fast as the rules grow, and traces that explain
-  every decision.
-- **Durable workflows.** Billing and metering built as Temporal workflows: quotas, usage
-  aggregation, overage pricing and invoicing that retry safely instead of corrupting state.
-- **Incremental computation.** Keeping derived state up to date by applying changes rather
-  than recomputing it, with Rust where the hot path needs it.
-- **Multi-tenant backends.** Org, project and resource scopes; modular services with clear
-  contracts; migrations that don't break production.
-- **Agent-driven development.** Machine-readable specs, invariants and routing contracts
-  that let AI coding agents ship production code instead of guesses.
+- **A learning platform for K–12 schools.** Course creation, license-based access,
+  educational games, and reporting that rolls student progress up from school to state
+  to national level. Piloted across multiple schools.
+- **An online assessment platform, zero to production in under three months.** Timed
+  tests, auto-grading, score breakdowns and performance history, plus an admin dashboard
+  for tracking participation and spotting students who need help.
+- **A training and placement app** used across a network of colleges: curated coding
+  assessments and a dashboard for each trainer.
+- **Multi-tenant SaaS products.** Organisations and projects, permissions, usage metering
+  and billing, and the full web frontend on top.
 
-**Stack:** TypeScript, Node.js, PostgreSQL, Fastify, NestJS, Next.js, Temporal, ClickHouse,
-Rust (napi-rs).
+**How I work**
+
+- **Model first.** Invariants, domain model and API contracts written down before the code.
+- **Small teams, steady releases.** I've built and led teams of five and six engineers and
+  set up sprints, code review and staging-to-production pipelines.
+- **AI coding agents in the toolchain,** driven by written specs rather than guesswork.
+
+**Stack:** TypeScript, Node.js, React, Next.js, NestJS, PostgreSQL, MongoDB, Docker, AWS.
 
 **Public work**
 

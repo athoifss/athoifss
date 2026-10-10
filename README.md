@@ -25,5 +25,7 @@ and process that keep it shipping.
 
 **Public work**
 
-- [Stripe-Payment-Intent](https://github.com/athoifss/Stripe-Payment-Intent): complex
-  payment flows with Stripe Payment Intents, React and Node.js.
+- [Stripe-Payment-Intent](https://github.com/athoifss/Stripe-Payment-Intent): saved cards
+  and 3D Secure payments with Stripe Payment Intents, React and Node.js. Companion code for
+  my Better Programming article,
+  [Complex Payment Flows Using Stripe Payment Intents](https://medium.com/better-programming/complex-payment-flows-using-stripe-payment-intents-a-reactjs-nodejs-guide-5835f4c004cf).
